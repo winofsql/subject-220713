@@ -36,3 +36,8 @@
                 pattern="[0-9]+"
                 maxlength="4"
 ```
+
+
+### jQuery : parents( セレクタ) による、先祖の直接取り出し
+- parent().parent() はおじいちゃんを経路で取り出す
+- parents(".body") は、おじいちゃんの特徴で取り出す
