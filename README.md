@@ -41,3 +41,15 @@
 ### jQuery : parents( セレクタ) による、先祖の直接取り出し
 - parent().parent() はおじいちゃんを経路で取り出す
 - parents(".body") は、おじいちゃんの特徴で取り出す
+
+
+### 日付フィールドはカレンダーコントロール( Chrome )
+```html
+            <input class="form-control data w200"
+                required
+                <?= $readonly_2 ?>
+                type="date"
+                name="birth" 
+                id="birth" 
+                value="<?= $_POST["birth"] ?>">
+```
